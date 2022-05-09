@@ -30,3 +30,11 @@ func GetRedisConn() (redis.Conn, error) {
 	)
 }
 ```
+
+注意：如果你的项目名称和websocket-chat不一致，可能会报错误，直接把go.mod和go.sum删除掉
+然后执行两个命令
+```
+go mod init
+go mod tidy
+```
+
