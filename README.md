@@ -45,3 +45,6 @@ export GOROOT=/usr/lib/go
 export GOPATH=/home/mayanan/GOPATH
 export GIN_MODE=release
 ```
+
+// 项目效果图
+![](images/chat.png)
