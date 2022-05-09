@@ -38,3 +38,10 @@ go mod init
 go mod tidy
 ```
 
+// 生产环境变量的配置
+// GIN_MODE=release是gin框架生产的配置
+```
+export GOROOT=/usr/lib/go
+export GOPATH=/home/mayanan/GOPATH
+export GIN_MODE=release
+```
